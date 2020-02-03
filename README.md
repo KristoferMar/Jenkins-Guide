@@ -14,3 +14,7 @@ restart <br>
 
 stop <br>
 <i>brew services stop jenkins-lts</i>
+
+### Project functions
+
+- Upstream projects - Are projects which trigger other projects. This means that a project will be executed but only if the build sucesses.
