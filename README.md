@@ -4,7 +4,10 @@ It's an open source continuous integration / continuous delivery and development
 
 A continuous delivery pipeline is an implementation of the continuous paradigm, where automated builds, tests and deployments are orchestrated as one release workflow. Put more plainly, a CD pipeline is a set of steps your code changes will go through to make their way to production.
 
-#### Commands 
+#### Jenkins + brew commands
+
+List of brew services to find jenkins <br>
+<i> brew services list </i>
 
 start<br>
 <i>brew services start jenkins-lts</i>
