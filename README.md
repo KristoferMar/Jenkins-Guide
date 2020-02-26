@@ -22,3 +22,12 @@ stop <br>
 
 - Upstream projects - Are projects which trigger other projects. This means that a project will be executed but only if the build sucesses.
 - Downstream projects - Are projects which are triggered by other projects. They only trigger when another projects is compleated. 
+
+## Jenkins Build
+
+### Jenkins build periodically
+
+build periodically does what it says. Link with details can be found below: <br>
+https://www.lenar.io/jenkins-schedule-build-periodically/
+
+
