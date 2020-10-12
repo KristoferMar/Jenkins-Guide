@@ -30,4 +30,9 @@ stop <br>
 build periodically does what it says. Link with details can be found below: <br>
 https://www.lenar.io/jenkins-schedule-build-periodically/
 
+<h2>Jenkins roles</h2>
+<h3>Check if admin</h3>
+Under the "jenkins" tab you can verify if you are admin by looking for the "Manage Jenkins" option. If the option is not visible you are not admin.
+
+
 
