@@ -5,12 +5,12 @@ It's an open source continuous integration / continuous delivery and development
 A continuous delivery pipeline is an implementation of the continuous paradigm, where automated builds, tests and deployments are orchestrated as one release workflow. Put more plainly, a CD pipeline is a set of steps your code changes will go through to make their way to production.
 
 <h2>Jenkins benefits</h2>
-- Jenkins provides a feedback loop back to the developer to fix build errors
-- Research has shown that it's a lot quicker to have a developer fix the error immediatly (when the code is still fresh in memory)
-- Jenkins can publish every build of your software
-- This build already has gone through automated testing
-- When published and deployed to a dev/qa/staging server, you can advance the Software development lifecycle (SDLC) much quicker
-- The quicker you can go through an iteration of the SDLC the better
+- Jenkins provides a feedback loop back to the developer to fix build errors <br>
+- Research has shown that it's a lot quicker to have a developer fix the error immediatly (when the code is still fresh in memory) <br>
+- Jenkins can publish every build of your software <br>
+- This build already has gone through automated testing <br>
+- When published and deployed to a dev/qa/staging server, you can advance the Software development lifecycle (SDLC) much quicker <br>
+- The quicker you can go through an iteration of the SDLC the better <br>
 
 #### Jenkins + brew commands
 
