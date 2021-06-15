@@ -12,6 +12,13 @@ A continuous delivery pipeline is an implementation of the continuous paradigm, 
 - When published and deployed to a dev/qa/staging server, you can advance the Software development lifecycle (SDLC) much quicker <br>
 - The quicker you can go through an iteration of the SDLC the better <br>
 
+<h1>Jenkins setup</h1>
+
+Get initial AdminPassword to "unlock jenkins" 
+<pre>
+  cat /var/jenkins_home/secrets/initialAdminPassword
+</pre>
+
 #### Jenkins + brew commands
 
 List of brew services to find jenkins <br>
@@ -43,4 +50,6 @@ https://www.lenar.io/jenkins-schedule-build-periodically/
 Under the "jenkins" tab you can verify if you are admin by looking for the "Manage Jenkins" option. If the option is not visible you are not admin.
 
 
+<h1>Guides</h1>
 
+https://coralogix.com/blog/how-to-install-and-configure-jenkins-on-the-mac-os/
