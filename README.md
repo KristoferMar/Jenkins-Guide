@@ -49,6 +49,9 @@ https://www.lenar.io/jenkins-schedule-build-periodically/
 <h3>Check if admin</h3>
 Under the "jenkins" tab you can verify if you are admin by looking for the "Manage Jenkins" option. If the option is not visible you are not admin.
 
+<h2>Jenkins scripting</h2>
+It's possible to create jenkins pipelines using groovy scripting and it is a much more effecient way to create pipelines once you learn how to do it. <br>
+Jeg need to down load the "jenkins job DSL" plugin to be able to use it.<br>
 
 <h1>Guides</h1>
 
