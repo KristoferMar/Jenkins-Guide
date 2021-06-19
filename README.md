@@ -76,7 +76,7 @@ authorizationStrategy> references
 2. 
 <pre>
 authorizationStrategy> class="hudson.security.ProjectMatrixAuthorizationStrategy"> 
-  permission>hudson.model.Hudson.Administer:YOUR-USER</permission>
+  permission>hudson.model.Hudson.Administer:YOUR-USER /permission>
 /authorizationStrategy>
 </pre>
 <h1>Guides</h1>
