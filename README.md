@@ -53,7 +53,7 @@ Under the "jenkins" tab you can verify if you are admin by looking for the "Mana
 It's possible to create jenkins pipelines using groovy scripting and it is a much more effecient way to create pipelines once you learn how to do it. <br>
 Jeg need to down load the "jenkins job DSL" plugin to be able to use it.<br>
 
-<h2>Jenkins secutiry</h2>
+<h2>Jenkins security</h2>
 
 If you lock yourself out or need to force a way in you can edit the jenkins config.xml file if you have access to it. <br>
 
