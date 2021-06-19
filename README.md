@@ -53,6 +53,32 @@ Under the "jenkins" tab you can verify if you are admin by looking for the "Mana
 It's possible to create jenkins pipelines using groovy scripting and it is a much more effecient way to create pipelines once you learn how to do it. <br>
 Jeg need to down load the "jenkins job DSL" plugin to be able to use it.<br>
 
+<h2>Jenkins secutiry</h2>
+
+If you lock yourself out or need to force a way in you can edit the jenkins config.xml file if you have access to it. <br>
+
+<pre>
+docker stop jenkins
+# edit /var/jenkins_come/config.xml
+docker start jenkins
+</pre>
+
+From here you have two options you can <br>
+1. 
+<pre>
+Make sure you have:
+useSecurity>false /useSecurity>
+
+And remove all:
+authorizationStrategy> references
+</pre>
+
+2. 
+<pre>
+authorizationStrategy> class="hudson.security.ProjectMatrixAuthorizationStrategy"> 
+  permission>hudson.model.Hudson.Administer:YOUR-USER</permission>
+/authorizationStrategy>
+</pre>
 <h1>Guides</h1>
 
 https://coralogix.com/blog/how-to-install-and-configure-jenkins-on-the-mac-os/
